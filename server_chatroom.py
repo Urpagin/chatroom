@@ -55,6 +55,3 @@ def receive():
 
 print("Server is listening...")
 receive()
-
-# hop une ligne en plus pour tester Git
-
