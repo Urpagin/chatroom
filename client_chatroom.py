@@ -1,8 +1,13 @@
 import threading
 import socket
 
-while True:
-    nickname = input("Choose a nickname: ")
+nickname = None
+while nickname is None:
+    try:
+        nickname = input("Choose a nickname: ")
+    except TypeError:
+        nickname = None
+        continue
     if nickname.isalnum():
         break
 
