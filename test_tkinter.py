@@ -56,4 +56,3 @@ write_thread.start()
 
 window.mainloop()
 receive()
-
