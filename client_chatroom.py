@@ -43,4 +43,3 @@ receive_thread.start()
 
 write_thread = threading.Thread(target=write)
 write_thread.start()
-
